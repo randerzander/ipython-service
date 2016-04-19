@@ -6,7 +6,7 @@ def package_dir(): return os.path.realpath(__file__).split('/package')[0] + '/pa
 def add_repos():
   distribution = platform.linux_distribution()[0].lower()
   #TODO: add ubuntu
-  if distribution in ['centos', 'redhat'] :
+  if distribution in ['centos', 'redhat', 'red hat enterprise linux'] :
     repo_dir = package_dir()+'files/repos/rhel6/'
     os_repo_dir = '/etc/yum.repos.d/'
 
