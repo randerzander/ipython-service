@@ -62,6 +62,34 @@
                   <package><name>geos-devel</name></package>
                 </packages>
               </osSpecific>
+              <osSpecific>
+                <osFamily>trusty</osFamily>
+                <packages>
+                  <package><name>epel-release</name></package>
+                  <package><name>zlib-devel</name></package>
+                  <package><name>bzip2-devel</name></package>
+                  <package><name>openssl-devel</name></package>
+                  <package><name>xz-libs</name></package>
+                  <package><name>sqlite-devel</name></package>
+                  <package><name>lrzsz</name></package>
+                  <package><name>freetype-devel</name></package>
+                  <package><name>libpng-devel</name></package>
+                  <package><name>cairo-devel</name></package>
+                  <package><name>libXt-devel</name></package>
+                  <package><name>libxslt-devel</name></package>
+                  <package><name>boost-devel</name></package>
+                  <package><name>libcurl-devel</name></package>
+                  <package><name>lapack-devel</name></package>
+                  <package><name>blas</name></package>
+                  <package><name>blas-devel</name></package>
+                  <package><name>zeromq3-devel</name></package>
+                  <package><name>python-devel</name></package>
+                  <package><name>pandoc</name></package>
+                  <package><name>pandoc-citeproc</name></package>
+                  <package><name>readline-devel</name></package>
+                  <package><name>geos-devel</name></package>
+                </packages>
+              </osSpecific>
             </osSpecifics>
             <configuration-dependencies>
               <config-type>jupyter-config</config-type>
